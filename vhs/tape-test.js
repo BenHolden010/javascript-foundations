@@ -55,7 +55,7 @@ describe("Collection", function(){
     assert(collectionTwo, [{title:"Anastasia", readyToPlay:false}])
   })
 
-  it("should print out all the tape title that is in the collection", function(){
+  it("should print out all the tape titles that are in the collection", function(){
     var emptyCollection = createCollection([])
     var theEraser = createTape("The Eraser",true)
     var kidA = createTape("kidA", false);
